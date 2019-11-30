@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Keania+One|Merienda|Slabo+27px&display=swap" rel="stylesheet">
+    <!-- Owl carousel -->
+    <link href="assests/css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assests/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="assests/css/owl.theme.default.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <title>Welcome to Debug Entity</title>
+
+    <style>
+        .text-white {
+            color: white;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+
+        }
+
+        .bg-dark {
+            background-color: #373b55;
+            z-index: 0.5;
+        }
+
+        .bg-suttle {
+            background-color: #414564;
+        }
+
+        .bg-darker {
+            background-color: #242738;
+        }
+
+        .form-small-input {
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+
+        .space {
+            margin-right: 10px;
+            margin-left: 10px;
+
+        }
+
+        .icons {
+            color: white;
+            font-size: 50px;
+        }
+
+        .icons:hover {
+            color: whitesmoke;
+            opacity: .5;
+        }
+
+        .navtitle {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+        }
+
+        .navbrand {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 25px;
+            font-family: bold;
+        }
+
+        .title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 250%;
+        }
+
+        .bg-image {
+            background-image: url('hacker.jpg');
+            background-color: #242738;
+            height: 400px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            /* filter: blur(4px); */
+            /* -webkit-filter: blur(4px); */
+        }
+
+        .wrapper {
+            height: auto;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .bg-text {
+            color: white;
+            position: absolute;
+            /* top: 400px; */
+            /* left: 50%; */
+            /* transform: translate(-50%, -50%); */
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            z-index: 2;
+            text-align: center;
+        }
+
+        .item {
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .client-logo {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .parallax {
+            background-image: url("hacker.jpg");
+
+            min-height: 500px;
+
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .card {
+            position: relative;
+            justify-content: center;
+            box-align: center;
+            align-content: center;
+            opacity: .8;
+        }
+
+        .card:hover {
+            opacity: 1;
+        }
+
+        .extraspace {
+            padding: 30px;
+            align-content: center;
+            box-align: center;
+            justify-content: center;
+        }
+
+        .card:hover {
+            box-shadow: -1px 9px 40px -12px rgb(255, 255, 255, .75);
+        }
+
+    </style>
+
+</head>
+
+<body class="bg-dark">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-darker fixed-top">
+        <a class="navbar-brand text-white navbrand" href="#" style="font-family: 'Montserrat'" ;>Debug Entity</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white navtitle space" href="#" style="font-family: 'Montserrat'" ;>Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white navtitle" href="www.w3schools.com"
+                        id="tutorialDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false" style="font-family: 'Montserrat'" ;>Tutorials</a>
+
+
+                    <div class="dropdown-menu" aria-labelledby="tutorialDropdown">
+                        <a class="dropdown-item" href="https://www.w3schools.com/react/default.asp"
+                            style="font-family: 'Montserrat'">React-Native</a>
+                        <a class="dropdown-item" href="https://developer.android.com/guide"
+                            style="font-family: 'Montserrat'">Android Development</a>
+                        <a class="dropdown-item" href="https://www.w3schools.com/python/default.asp"
+                            style="font-family: 'Montserrat'" ;>Machine Learning with Python</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link navtitle dropdown-toggle space text-white" href="#" id="practiceDropdown"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                        style="font-family: 'Montserrat'" ;>
+                        Practice
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="practiceDropdown">
+                        <a class="dropdown-item" href="https://www.hackerrank.com/domains/data-structures"
+                            style="font-family: 'Montserrat'" ;>Data Structures</a>
+                        <a class="dropdown-item" href="https://www.hackerrank.com/domains/java"
+                            style="font-family: 'Montserrat'" ;>Java</a>
+                        <a class="dropdown-item" href="https://www.hackerrank.com/domains/python"
+                            style="font-family: 'Montserrat'" ;>Python</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link space text-white navtitle" href="#LoginUser" style="font-family: 'Montserrat'"
+                        ;>Login</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+    <!-- 1st menu -->
+    <div class=" bg-image jumbotron-fluid text-white parallax pb-4" style="margin-top:65px;">
+
+        <div class="container-fluid bg-text">
+            <p class="title" style="font-size: 70px;margin-top: 10%;">CODE WITH US!</p>
+            <p class="text-white" style="font-size: 30px;">Get Started with a journey that helps you gain confidence
+            </p>
+        </div>
+
+    </div>
+
+    <div class="bg-darker text-white py-4">
+        <h4 class="title">About Us</h4>
+        <p class="` px-5 py-4">
+            Debug Entity is an organistion of highly motivated students who help upcoming generation of learners to
+            gather resources required in their journey at one stop destination.
+            <br>
+
+        </p>
+    </div>
+
+
+    <!-- 2nd Menu about Courses-->
+
+    <div class="container-fluid bg-dark extraspace">
+        <h4 class="title text-white" style="margin-top:30px;margin-bottom:30px;">Courses</h4>
+        <div class="row justify-content-around">
+            <div class="col-lg-4">
+                <div class="card moving" style="width: 18rem;border-radius: 2% ;margin: 30px ">
+                    <img src="images/android.jpg" class="card-img-top client-logo" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Android</h5>
+                        <p class="card-text">Android is a mobile operating system based on a modified version of the
+                            Linux kernel and other open source software, designed primarily for touchscreen mobile
+                            devices such as smartphones and tablets.</p>
+                        <a href="https://www.udemy.com/course/android-app-development-with-java/"
+                            class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card moving" style="width: 18rem;border-radius: 2%;margin: 30px">
+                    <img src="images/html.jpg" class="card-img-top client-logo" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">Learn basics of Web development to kick start your Journey with:
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>PHP</li>
+
+                            </ul>
+                        </p>
+                        <a href="https://www.udemy.com/course/the-complete-web-developer-course-2/"
+                            class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card moving" style="width: 18rem;border-radius: 2%; margin: 30px">
+                    <img src="images/java.jpeg" class="card-img-top client-logo" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Java</h5>
+                        <p class="card-text">Java is a general-purpose programming language that is class-based,
+                            object-oriented, and designed to have as few implementation dependencies as possible</p>
+                        <a href="https://www.udemy.com/course/java-the-complete-java-developer-course/"
+                            class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-around">
+            <div class="col-lg-4">
+                <div class="card moving" style="width: 18rem;border-radius: 2%;margin: 30px">
+                    <img src="images/react.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">React-Native</h5>
+                        <p class="card-text">React (also known as React.js or ReactJS) is a JavaScript library for
+                            building user interfaces. It is maintained by Facebook and a community of individual
+                            developers and companies</p>
+                        <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+                            class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card moving" style="width: 18rem;border-radius: 2%;margin: 30px">
+                    <img src="images/machinelearning.jpeg" class="card-img-top client-logo" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Machine learning</h5>
+                        <p class="card-text">Machine learning is an application of artificial intelligence (AI) that
+                            provides systems the ability to automatically learn and improve from experience without
+                            being explicitly programmed.</p>
+                        <a href="https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/"
+                            class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card moving" style="width: 18rem;border-radius: 2%;margin: 30px">
+                    <img src="images/kotlin.png" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kotlin</h5>
+                        <p class="card-text">Kotlin is designed to interoperate fully with Java, and the JVM version of
+                            its standard library depends on the Java Class Library, but type inference allows its syntax
+                            to be more concise.</p>
+                        <a href="https://www.udemy.com/course/the-complete-kotlin-developer-course/"
+                            class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Login Form -->
+    <div class="row text-white py-4 bg-darker">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5 py-4 px-5" style="border-right: #FFFF 1px solid;">
+            <h4 class="h1-responsive text-white pb-4 title" id="readmore">
+                Why Programming? </h4>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lJnvq0A_7WQ" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-sm-6 pb-4">
+            <form id="LoginUser">
+                <div class="py-4">
+                    <p class="title bg-darker text-white">Login</p>
+                    <div class="form-group text-white form-small-input py-2">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group text-white form-small-input py-2">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
+                            required>
+                    </div>
+                    <div class="form-group form-check py-2">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                        <label class="form-check-label-lg" for="exampleCheck1">I'am not a Robot</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="footer text-white navbar-expand-lg bg-dark">
+        <div class="space">
+            <div class="row space ">
+                <div class="col-md-4 py-2">
+                    <p class="navbrand"><span style="font-size: 40px;">Debug Entity</span></p>
+                    <a href="" class="text-white">Vishwakarma Institue of Information Technology, Kondhawa Bk. Pune
+                        411048</a>
+                    <br>
+                    <a href="" class="text-white">help@debugentity.com</a>
+                </div>
+
+                <div class="col-md-4 py-2">
+                    <p class="title">About</p>
+                    <a href="#" class="text-white">Our Developers</a>
+                    <br>
+                    <a href="https://www.glassdoor.com" class="text-white">Careers</a>
+                    <br>
+                    <a href="https://www.intershala.com" class="text-white">Interships</a>
+                </div>
+
+                <div class="col-md-4 py-2">
+                    <p class="title">Learn</p>
+                    <a href="#" class="text-white">Algorithms</a>
+                    <br>
+                    <a href="#" class="text-white">Data Structures</a>
+                    <br>
+                    <a href="#" class="text-white">Languages</a>
+                    <br>
+                    <a href="#" class="text-white">Tutorials</a>
+
+                </div>
+
+                <div class="col-md-12 py-3">
+                    <div class="py-3">
+                        <a href="https://www.facebook.com/" class="text-white" target="_blank">
+                            <i class="fab fa-facebook space icons"></i>
+                        </a>
+                        <a href="https://www.twitter.com/" class="text-white" target="_blank">
+                            <i class="fab fa-twitter space icons "></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" class="text-white" target="_blank">
+                            <i class="fab fa-linkedin space icons "></i>
+                        </a>
+                        <a href="https://www.github.com/" class="text-white" target="_blank">
+                            <i class="fab fa-github space icons"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="text-white" target="_blank">
+                            <i class="fab fa-instagram space icons"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="text-white" target="_blank">
+                            <i class="fab fa-youtube space icons"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container-fluid py-2 bg-darker" style="width:100%; padding:5%">
+                <p>&copy; Debug Entity,All rights reserved.</p>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <!-- Card Hovering -->
+    <script>
+        $(document).ready(function () {
+
+            $('.moving').hover(
+                function () {
+                    $(this).animate({
+                        marginTop: "-=30px",
+                    }, 200);
+                },
+                function () {
+                    $(this).animate({
+                        marginTop: "+=30px",
+                    }, 200);
+
+                }
+            );
+        });
+    </script>
+
+</body>
+
+</html>
